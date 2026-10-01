@@ -91,7 +91,6 @@ flutter analyze
 🛠️ Project Architecture
 text
 
-
 lib/
 ├── core/
 │   └── theme/
@@ -123,5 +122,7 @@ lib/
 │       ├── metric_bar_widget.dart         # Comparative linear score bars
 │       └── mobile_container.dart          # Adaptive mobile frame container
 └── main.dart                              # Application shell & entrypoint
+<br>
+<br>
 The file is saved locally in your repository at: 
 C:\Users\Aarya\.gemini\antigravity\scratch\model_personality_drift_tracker\README.md
