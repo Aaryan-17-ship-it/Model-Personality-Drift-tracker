@@ -92,35 +92,65 @@ flutter analyze
 text
 
 lib/
+<br>
 ├── core/
+<br>
 │   └── theme/
+<br>
 │       └── app_theme.dart                 # Dark and light AI lab themes
+<br>
 ├── data/
+<br>
 │   ├── models/
+<br>
 │   │   ├── model_info.dart                # Open-source model metadata and presets
+<br>
 │   │   ├── personality_metrics.dart       # 6D personality vectors & delta calculus
+<br>
 │   │   ├── probe_prompt.dart              # Benchmark probe definitions & categories
+<br>
 │   │   └── comparison_result.dart         # Cross-version comparison records
+<br>
 │   ├── services/
+v
 │   │   ├── open_source_ai_service.dart    # OpenRouter / Groq / Ollama / HF API client
+<br>
 │   │   ├── personality_analyzer.dart      # Deterministic NLP linguistic & personality scorer
+<br>
 │   │   └── mock_benchmark_data.dart       # Pre-seeded verified cross-version data
+<br>
 │   └── repositories/
+<br>
 │       └── drift_tracker_repository.dart  # History manager and report generator
+<br>
 ├── ui/
+<br>
 │   ├── view_models/
+<br>
 │   │   └── drift_tracker_view_model.dart  # Reactive state management
+<br>
 │   ├── views/
+<br>
 │   │   ├── arena_view.dart                # Interactive comparison & prompt test arena
+<br>
 │   │   ├── radar_visualizer_view.dart     # Interactive radar chart & dimension matrix
+<br>
 │   │   ├── timeline_view.dart             # Chronological drift history
+<br>
 │   │   └── settings_view.dart             # Live API config, local Ollama, & temperature
+<br>
 │   └── widgets/
+<br>
 │       ├── radar_chart_widget.dart        # CustomPainter animated dual-model radar chart
+<br>
 │       ├── drift_delta_card.dart          # Dimension delta badge (+/- % changes)
+<br>
 │       ├── side_by_side_response.dart     # Dual split response viewer
+<br>
 │       ├── metric_bar_widget.dart         # Comparative linear score bars
+<br>
 │       └── mobile_container.dart          # Adaptive mobile frame container
+<br>
 └── main.dart                              # Application shell & entrypoint
 <br>
 <br>
