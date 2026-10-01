@@ -1,4 +1,6 @@
 Model Personality Drift Tracker 🎯
+<br>
+<br>
 A mobile-first cross-platform Flutter application to systematically probe, score, and visualize AI Model Personality & Behavioral Drift across model generations and version updates (e.g., Meta Llama 3 8B vs Llama 3.1 8B vs Llama 3.2 3B, Google Gemma 1 vs Gemma 2, Mistral 7B vs Nemo).
 
 📌 The Problem: What is "Personality Drift"?
